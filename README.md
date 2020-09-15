@@ -1,2 +1,2 @@
-# VeraZikky-s-Closet
+# VeraZikky-Closet
 VeraZikky's Closet [Fashion Bank]
