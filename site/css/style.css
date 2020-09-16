@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+	font-family: 'Acme', sans-serif;
+   overflow-x: hidden;
+   background-color: #6e86;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+  font-weight: 500;
+}
+h1 {
+   font-size: 4rem;
+}
+
+
+/*** Navigation Bar ***/
+.navbar {
+  	font-size: 1.1em;
+}
+.navbar-nav li a {
+   font-size: 1.2em;
+   margin-right: 1.5em;
+   color: #d1d0ce;
+   text-align: center;
+   z-index: 1;
+}
+.navbar-nav li a:after {    
+  	background: none repeat scroll 0 0 transparent;
+  	content: "";
+  	display: block;
+  	height: 2px;
+  	left: 0;
+  	background: #fff;
+  	width: 0;
+  	transform: scaleX(0);
+  	transition: .25s linear;
+}
+.navbar-nav li a:hover:after, .navbar-nav li a:focus:after { 
+  	width: 100%; 
+  	transition: 0.4s ease all;
+  	/*visibility: visible;*/
+  	transform: scaleX(1.2); 
+}
+.container-fluid img {
+	width: 60%;
+}
+/*** End of Navigation Bar ***/
