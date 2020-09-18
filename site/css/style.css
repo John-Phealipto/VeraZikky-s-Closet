@@ -81,7 +81,7 @@ h1 {
 
 /*** Hero Section ***/
 #hero {
-   background: url(../images/jordan-dark.jpg) no-repeat center center fixed;
+   background: url("../images/jordan-dark.JPG") no-repeat center center fixed;
    display: table;
    height: 70vh;
    width: 100%;
