@@ -64,17 +64,19 @@ h1 {
 }
 /*** End of Navigation Bar ***/
 
-.text-center {}
+
+/*** Bonus Text ***/
 .text-center h3 {
 	font-weight: bold;
 	font-size: 1rem;
 	margin: 15px auto 
 }
+/*** End of Bonus Text ***/
 
 
 /*** Hero Section ***/
 #hero {
-   background: url(../images/jordan-dark.jpg) no-repeat center center fixed;
+   background: url(./images/jordan-dark.jpg) no-repeat center center fixed;
    display: table;
    height: 70vh;
    width: 100%;
@@ -96,6 +98,15 @@ h1 {
 }
 /*** End of Hero Section ***/
 
+
+/*** Gender Selection ***/
+.container .gender {
+	/*padding-left: 25vw; */
+}
+.container .gender button {
+	border-radius: 15px;
+}
+/*** End of Gender Selection ***/
 
 
 /*** MEDIA QUERIES ***/
