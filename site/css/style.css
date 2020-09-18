@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Great+Vibes&display=swap');
 
 *, *:after {
   box-sizing: border-box;
@@ -55,25 +55,44 @@ h1 {
 	display: flex;
 }
 .search-container button {
-	margin-left: 3px;
 	border-radius: 9px;
 	border: none;
 	cursor: pointer;
 }
-.search-container input {
-	
-}
-
 .search-container button:hover {
 	background-color: #d5f3f6;
 }
 /*** End of Navigation Bar ***/
 
+.text-center {}
+.text-center h3 {
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 15px auto 
+}
+
 
 /*** Hero Section ***/
 #hero {
+   background: url(../images/jordan-dark.jpg) no-repeat center center fixed;
+   display: table;
    height: 70vh;
    width: 100%;
+}
+.hero-items {
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+}
+.hero-items .fashion-b {
+	font-family: 'Great Vibes', cursive;
+	color: silver;
+}
+.hero-items .qoute {
+	font-family: 'Fredoka One', cursive;
+}
+.intro {
+	color: silver;
 }
 /*** End of Hero Section ***/
 
