@@ -81,7 +81,7 @@ h1 {
 
 /*** Hero Section ***/
 #hero {
-   background: url("/images/jordan-dark.JPG") no-repeat center center fixed;
+   background: url('../images/jordan-dark.JPG') no-repeat center center fixed;
    display: table;
    height: 70vh;
    width: 100%;
@@ -93,7 +93,7 @@ h1 {
 }
 .hero-items .fashion-b {
 	font-family: 'Great Vibes', cursive;
-	color: silver;
+	color: white;
 }
 .hero-items .qoute {
 	font-family: 'Fredoka One', cursive;
