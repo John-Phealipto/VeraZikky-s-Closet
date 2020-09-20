@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-  	<!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/pngwing.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/pngwing.png">
 
-    <title>VeraZikky's Closet</title>
+ <title>VeraZikky's Closet</title>
   </head>
 <body>
 	<!-- Navigation Bar -->
@@ -62,13 +62,13 @@
     	<h2 class="fashion-b">Fashion Bank</h2>
       <h2 class="intro qoute">You can have anything you want in life if you dress for it</h2>
       <h5 class="intro text-white">Best Collections Available For You</h5>
-      <button type="button" class="btn btn-info text-dark">Shop now</button>
+      <a href="#genderSelector" type="button" class="btn btn-sm btn-outline-none bg-info">Shop now</a>
     </div> 
   </div>
   <!-- End of Top Hero Section --> 
 
   <!-- Gender Selection -->
-  <div class="container">
+  <div class="container" id="genderSelector">
   	<div class="btn-group btn-group-lg pt-3 gender d-flex justify-content-center" role="group" aria-label="Basic example">
   		<button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#menSection" aria-expanded="false" aria-controls="menSection">Men</button>
   		<button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#womenSection" aria-expanded="false" aria-controls="womenSection">Women</button>
@@ -78,9 +78,54 @@
 	<!-- End of Gender Selection -->
 
 	<!-- Men Section -->
-	<div id="menSection"></div>
+	<div id="menSection">
+		<div class="container">
+    	<div class="row justify-content-center mb-4">
+
+        <button type="button" class="btn btn-outline-none bg-none mb-4 mt-3 shadow-sm mx-1">
+        	<div class="card border-light bg-dark" data-toggle="modal" data-target="#tazockLeatherWristWatch">
+          	<img class="card-img-top bg-dark" src="images/watch55.jpg" alt="Card image cap">
+          	<div class="card-body">
+            	<h5 class="card-title text-white d-inline-block text-truncate" style="max-width: 180px;">Tazock Leather wrist watch</h5>
+            	<h5 class="card-subtitle card-footer text-muted">&#8358;15,000</h5>
+          	</div>
+        	</div>
+        </button>
+
+      </div>
+    </div>
+	</div>
 	<!-- End of Men Section -->
 	
+
+	<!-- Modal Men Section -->
+	<div class="modal fade" id="tazockLeatherWristWatch" tabindex="-1" role="dialog" aria-labelledby="tazockLeatherWristWatchTitle" aria-hidden="true">
+  	<div class="modal-dialog modal-dialog-centered" role="document">
+    	<div class="modal-content">
+      	<div class="modal-header">
+        	<h5 class="modal-title" id="tazockLeatherWristWatchTitle">Tazock Leather wrist watch</h5>
+        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          	<span aria-hidden="true">&times;</span>
+        	</button>
+      	</div>
+      	<div class="modal-body">
+      		.....
+      	</div>
+      	<div class="modal-footer">
+        	<button type="button" class="btn btn-primary">Add to cart</button>
+      	</div>
+    	</div>
+  	</div>
+	</div>
+	<!-- End of Modal Men Section-->
+
+
+
+
+
+
+
+
 
 	<!-- Footer -->
 	<div class="footer bg-dark text-white mt-5">
